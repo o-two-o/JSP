@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=utf-8"
     pageEncoding="utf-8"%>
     <jsp:useBean id="car" class="Bean.Car" scope="session"></jsp:useBean>
+<jsp:setProperty property="*" name="car"/>
 <!DOCTYPE html>
 <html>
 <head>
